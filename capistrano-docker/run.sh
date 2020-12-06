@@ -1,0 +1,1 @@
+docker-compose run capistrano /bin/bash

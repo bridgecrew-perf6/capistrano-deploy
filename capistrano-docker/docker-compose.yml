@@ -1,0 +1,7 @@
+version: "3"
+services:
+  capistrano:
+    build: ./
+    volumes:
+      - ../:/app
+      - /run/user/1000/keyring:/run/user/1000/keyring
